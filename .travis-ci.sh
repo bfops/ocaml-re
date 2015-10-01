@@ -28,6 +28,9 @@ opam install ${OPAM_DEPENDS}
 
 eval `opam config env`
 
+opam install oasis
+oasis setup
+
 # test opam installation
 opam pin add re .
 # run tests
